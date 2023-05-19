@@ -21,7 +21,7 @@
 			</div>
 			<div class="content">
 				<div class="inner">
-					<h1>Welcome! This is Mengyi.</h1>
+					<h1>Welcome! I am Mengyi.</h1>
 					<p>This is a showcase of my projects and a little bit about myself.</p>
 				</div>
 			</div>
@@ -41,27 +41,32 @@
 			<article id="about">
 				<h2 class="major">about</h2>
 				<span class="image main"><img src="images/me.JPG" alt="Mengyi's portrait" /></span>
-				<p>Mengyi is a graduate student at Virginia Tech in the program of Information Technology,
-					reshaping her skills through the radical development and innovation of computer technology.
-					She has been developing her understanding in this area by learning both frontend knowledge
-					(JavaScript,
-					HTML, CSS, and Vue) and backend expertise in Java, Spring Boot, RestAPI, and Maven.
-					Mengyi has the desire to utilize a broad educational background with excellent analytical,
-					technical, and programming skills to thrive as a software developer. 👩🏻‍💻
+				<p>Mengyi is a graduate student at Virginia Tech in the program of Information Technology, reshaping her
+					skills through the radical development and innovation of computer technology. Mengyi has the desire
+					to utilize a broad educational background with excellent analytical, technical, and programming
+					skills to thrive as a software developer. 👩🏻‍💻
 					<br>
 					<br>
 					Mengyi has a great passion for both life and work and she is a lifelong learner. When she
-					disconnects from the social network, she reconnects herself with podcasts 🎙.
-					<br>
-					<br>
-					Currently she is looking to be a Software Development Intern or Entry-level Software Developer. 😃
+					disconnects from the social network, she reconnects herself with podcasts 🎙. Currently she is
+					looking to be a Software Development Intern or Entry-level Software Developer. 😃
 				</p>
-				<p>Skills
+				<p>Technology Stack:
 					<br>
-					Java, HTML, CSS, VUE, Kotlin, JavaScript.
-					Spring Boot, Junit. Jenkins, Swagger, Splunk, Red Hat.
-					IntelliJ, Eclipse, VS Code, Android Studio.
-					Jira, Confluence, Scrum.
+					Technologies: Java 8, J2EE, SOAP/REST Webservices, Microservices. <br>
+					Frameworks: Spring MVC, Spring Boot.<br>
+					Webservices: REST API using Spring Boot.<br>
+					ORM: Spring Data JPA.<br>
+					Databases: MS SQL Server, MySQL.<br>
+					Testing Frameworks: JUnit, Mockito.<br>
+					UI: HTML, JavaScript, JSP, React, Vue.<br>
+					IDE: IntelliJ, Eclipse.<br>
+					Version Control: Git, TortoiseSVN.<br>
+					CI/CD: Maven, Gradle, Jenkins, Docker.<br>
+					Cloud: To be added.<br>
+					Servers: Apache.<br>
+					SDLC: Waterfall, Agile ( using ALM, Jira, Confluence )<br>
+					App Monitoring Tools: Splunk, OpenShift (Red Hat)<br>
 				</p>
 			</article>
 
@@ -78,9 +83,8 @@
 				<!-- lists of Mengyi's projects -->
 				<ul class="alt">
 
-					<!-- first project -->
 					<li>
-						<strong>E-commerce Website Building</strong>
+						<strong>E-commerce Bookstore Website</strong>
 						<br>
 						-> Designed a bookstore website that has home, category, user login, cart, and checkout pages
 						using HTML, CSS, JavaScript, and Vue components.
@@ -103,57 +107,79 @@
 					</span>
 
 
-					<!-- second project -->
 					<br><br>
 					<li>
 						<strong>My ChatGPT</strong>
 						<br>
-						-> Created a React application that follows <strong>ChatGPT API </strong>reference and
-						documentation to create a
-						simplified version of ChatGPT. It could fetch data from the client to the server to OpenAI API.
+						Client - React framework<br>
+						Server - Node.js Express framework<br>
+						The application following the OpenAI
+						<a href="https://platform.openai.com/docs/api-reference" target="_blank">
+							<i><u>ChatGPT API reference </u></i>
+						</a>
+						was created as a simplified version of ChatGPT.
+						It could fetch data/prompts from the client to the server to OpenAI API and get a
+						response/completions back to the client.
+
 					</li>
 					<iframe width=100% height="315" src="https://www.youtube.com/embed/6WDI5A9Sy3U"
 						title="YouTube video player" frameborder="0"
 						allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
 						allowfullscreen></iframe>
 
-					<!-- third project -->
 					<br><br>
+
 					<li>
-						<strong>Dream Catcher app</strong>
+						<strong>Docker Project - User Profile App</strong>
 						<br>
-						-> Used Kotlin to create an Android Dream Catcher app that users could note down, delete and track
-						dreams.
-						-> Used Coroutine, Fragments, and Dialogue to create reusable components.
-						-> Used View Model to retain configuration change.
+						A user profile app that enables users to update their profiles. It is set up using index.html
+						with JavaScript, CSS styles, and node js backend with express mode MongoDB for data storage.<br>
+						-> All components are docker-based.<br>
+						-> A Docker Compose is created to structure docker commands and used to create the default
+						common Docker Network for MongoDB and Mongo Express.<br>
+						-> A Dockerfile is also used as a blueprint for assembling images.<br>
+						-> Docker Image Used:<br>
+						Mongo: MongoDB document databases<br>
+						Mongo Express: Web-based MongoDB admin interface<br>
 					</li>
-					<iframe width="100%" height="315" src="https://www.youtube.com/embed/I7xnULV0TkU" 
+					<iframe width="100%" height="315" src="https://www.youtube.com/embed/7RdXyS8_Vj4"
+						title="YouTube video player" frameborder="0"
+						allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+						allowfullscreen></iframe>
+
+
+					<li>
+						<strong>Dream Catcher App</strong>
+						<br>
+						This is a dream catcher app written in Kotlin. Users of this app can:<br>
+						-> scan a scrollable list of dreams: RecyclerView.<br>
+						-> go to each dream detail: Safe Args Library, Fragment Navigation.<br>
+						-> update dream - the most updated dream is the top item: unidirectional data flow.<br>
+						-> add a new dream and add some reflections to the dream: Room database library.<br>
+						-> select if the dream is either deferred or fulfilled; if the dream is fulfilled, no reflection
+						could be added: Dialogue Fragment.<br>
+						-> swipe left to delete the dream from the dream list fragment; swipe left to delete reflections
+						from the dream detail fragment: ItemTouchHelper.<br>
+						-> retain all dream states through a configuration change: ViewModel.<br>
+						-> take a photo attached to each dream: Implicit Intent.<br>
+						-> share the dream status with other apps: Implicit Intent and chooser dialogue.<br>
+						-> delete dream from menu item: Room database library.<br>
+						-> select different menu items from the menu bar: Menu component.<br>
+					</li>
+					<iframe width="100%" height="315" src="https://www.youtube.com/embed/I7xnULV0TkU"
 						title="YouTube video player" frameborder="0" allow="accelerometer; 
 						autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; 
 						web-share" allowfullscreen></iframe>
 
-					<!-- fourth project -->
 
-					<br><br>
 					<li>
-						<strong>Simplified “AI” system </strong>
-						for Tetris playing: Compute the best of all possible
-						placements, using a cost-based algorithm. Choose the best placement for each shape and perform
-						calculations.
-						(Java, Junit)
-					</li>
-					<iframe width=100% height="315" src="https://www.youtube.com/embed/6gFg-s2n-a4"
-						title="YouTube video player" frameborder="0"
-						allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-						allowfullscreen></iframe>
-
-					<!-- fifth project -->
-					<li>
+						<strong>PetLovers Pet Shop Website</strong>
+						<br>
 						Employed
-						<strong>Scrum methodology</strong>
-						to draft business plans including Products and Service, Marketing Plan, Operations, and
-						Financials research for two startups. Led a group project to build a pet store e-commerce
-						website. Previsioned additional technologies that may be incorporated in the store, such as AWS.
+						Scrum methodology to draft business plans including Products and Service, Marketing Plan,
+						Operations, and Financials research for two startups. Led a group project to build a pet store
+						e-commerce website. Previsioned additional technologies that may be incorporated in the store,
+						such as AWS.
 						<a href="https://guom407.wixsite.com/petlovers" target="_blank">
 							<i><u>Click here </u></i>
 						</a>
@@ -161,20 +187,10 @@
 					<span class="image main"><img src="images/website.png"
 							alt="Mengyi's e-commerce website screenshot" />
 					</span>
-
-					<!--six project-->
-					<li>
-						Used JavaScript to create a
-						<strong>lead tracker Chrome extension</strong>
-						to source potential leads by saving tab URL or capturing inputs to local storage.
-					</li>
-					<iframe width=100% height="315" src="https://www.youtube.com/embed/6y3ZnAj9ma4"
-						title="YouTube video player" frameborder="0"
-						allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-						allowfullscreen>
-					</iframe>
 				</ul>
-				<blockquote>Feel free to check my Youtube channel on the main page for more! </blockquote>
+				<blockquote>Feel free to check my <a href="https://www.youtube.com/@Lea-pe7jy/videos" target="_blank">
+						<i><u>Youtube Channel </u></i>
+					</a> for more interesting projects! </blockquote>
 			</article>
 
 			<!-- gallery -->
@@ -220,14 +236,14 @@
 		<!-- Footer -->
 		<footer id="footer">
 			<ul class="icons">
-				<li><a href="https://www.linkedin.com/in/mengyi-guo" class="icon brands fa-linkedin"><span
-							class="label">LinkedIn</span></a></li>
-				<li><a href="https://www.youtube.com/channel/UCu7Q8pfeEvjgTxVyj7YVxHw"
-						class="icon brands fa-youtube"><span class="label">YouTube</span></a></li>
-				<li><a href="https://github.com/MengyiG" class="icon brands fa-github"><span
+				<li><a href="https://www.linkedin.com/in/mengyi-guo" class="icon brands fa-linkedin"
+						target="_blank"><span class="label">LinkedIn</span></a></li>
+				<li><a href="https://www.youtube.com/@Lea-pe7jy/videos" class="icon brands fa-youtube"
+						target="_blank"><span class="label">YouTube</span></a></li>
+				<li><a href="https://github.com/MengyiG" class="icon brands fa-github" target="_blank"><span
 							class="label">GitHub</span></a></li>
 			</ul>
-			<p><a href="mailto: yiii9292@gmail.com">Contact me</a>&nbsp</p>
+			<p><a href="mailto: yiii9292@gmail.com" target="_blank">Contact me</a>&nbsp</p>
 		</footer>
 	</div>
 
