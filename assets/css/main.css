@@ -1482,7 +1482,7 @@ body.is-preload #bg:before {
 
 #header nav ul li a {
   display: block;
-  min-width: 10rem;
+  min-width: 11rem;
   height: 2.75rem;
   line-height: 2.75rem;
   padding: 0 1rem 0 1rem;
