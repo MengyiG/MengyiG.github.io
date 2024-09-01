@@ -42,35 +42,14 @@
 			<article id="about">
 				<h2 class="major">about</h2>
 				<span class="image main"><img src="images/me.JPG" alt="Mengyi's portrait" /></span>
-				<p>Mengyi is a graduate student at Virginia Tech in the program of Information Technology, reshaping her
-					skills through the radical development and innovation of computer technology. Mengyi has the desire
-					to utilize a broad educational background with excellent analytical, technical, and programming
-					skills to thrive as a software developer. 👩🏻‍💻
-					<br>
-					<br>
-					Mengyi has a great passion for both life and work and she is a lifelong learner. When she
-					disconnects from the social network, she reconnects herself with podcasts 🎙. Currently she is
-					looking to be a Software Development Intern or Entry-level Software Developer. 😃
-				</p>
-				<p>Technology Stack:
-					<br>
-					Technologies: Java 8, J2EE, SOAP/REST Webservices, Microservices. <br>
-					Frameworks: Spring MVC, Spring Boot.<br>
-					Webservices: REST API using Spring Boot.<br>
-					ORM: Spring Data JPA.<br>
-					Databases: MS SQL Server, MySQL.<br>
-					Testing Frameworks: JUnit, Mockito.<br>
-					UI: HTML, JavaScript, JSP, React, Vue.<br>
-					IDE: IntelliJ, Eclipse.<br>
-					Version Control: Git, TortoiseSVN.<br>
-					CI/CD: Maven, Gradle, Jenkins, Docker.<br>
-					Cloud: To be added.<br>
-					Servers: Apache.<br>
-					SDLC: Waterfall, Agile ( using ALM, Jira, Confluence )<br>
-					App Monitoring Tools: Splunk, OpenShift (Red Hat)<br>
+				<p>Mengyi is a Full Stack Developer at <a href="https://www.simwell.io/"
+														  target="_blank"> SimWell</a>.
+					She graduated from Virginia Tech in the program of Information Technology.
+					Mengyi has a great passion for both life and work and she is a lifelong learner 🙋🏻‍♀️.
+					Mengyi enjoys working with her teammates and she is passionate about building great products.
+					When she disconnects from the social network, she reconnects herself with podcasts 🎙.
 				</p>
 			</article>
-
 
 			<!-- recommendations -->
 			<article id="recommendation">
@@ -189,23 +168,48 @@
 
 				<!-- lists of Mengyi's projects -->
 				<ul class="alt">
+					<li>
+						<strong>Spring Gateway and Nacos Service Discovery</strong>
+						<br>
+						This project is to check how to use nacos to achieve Service Discovery and Dynamic Configuration Management.</p>
+						<code>
+							Gateway -> Nacos Server -> ServiceOne/ServiceTwo
+						</code>
+						<br>
+						<br>
+						<a href="https://github.com/MengyiG/MySpringCloudGatewayNacos"> GitHub</a>
+
+					</li>
+
+					<li>
+						<strong>
+							MyChatroomHub
+						</strong>
+						<br>
+						This is a resource hub built for Women In Tech mentors, mentees, guest speakers and alumni to share job-hunting, tech learning, and program-specific resources for effective communication.
+						<br>
+						<span class="image main"><img
+								src="images/app%20glimpse.jpg"
+								alt="app glimpse" heigh="50px" /></span>
+						<a href="https://github.com/MengyiG/MyChatroomHub"> GitHub</a>
+					</li>
 
 					<li>
 						<strong>E-commerce Bookstore Website</strong>
 						<br>
-						-> Designed a bookstore website that has home, category, user login, cart, and checkout pages
+						- Designed a bookstore website that has home, category, user login, cart, and checkout pages
 						using HTML, CSS, JavaScript, and Vue components.
 						<br>
-						-> Populated the bookstore database with various categories of books using SQL.
+						- Populated the bookstore database with various categories of books using SQL.
 						<br>
-						-> Consolidated REST Api service to handle user’s HTTP requests and access bookstore DAO objects
+						- Consolidated REST Api service to handle user’s HTTP requests and access bookstore DAO objects
 						from the server side.
 						<br>
-						-> Used Vuex store to centralize all components and manage bookstore state.
+						- Used Vuex store to centralize all components and manage bookstore state.
 						<br>
-						-> Implemented Vuelidate to validate user data in the browser (client).
+						- Implemented Vuelidate to validate user data in the browser (client).
 						<br>
-						-> Hardened the website to handle invalid requests and unknown categories.
+						- Hardened the website to handle invalid requests and unknown categories.
 					</li>
 					<iframe width=100% height="315" src="https://www.youtube.com/embed/mLELJDSgC5Q"
 						title="YouTube video player" frameborder="0"
@@ -241,11 +245,11 @@
 						<br>
 						A user profile app that enables users to update their profiles. It is set up using index.html
 						with JavaScript, CSS styles, and node js backend with express mode MongoDB for data storage.<br>
-						-> All components are docker-based.<br>
-						-> A Docker Compose is created to structure docker commands and used to create the default
+						- All components are docker-based.<br>
+						- A Docker Compose is created to structure docker commands and used to create the default
 						common Docker Network for MongoDB and Mongo Express.<br>
-						-> A Dockerfile is also used as a blueprint for assembling images.<br>
-						-> Docker Image Used:<br>
+						- A Dockerfile is also used as a blueprint for assembling images.<br>
+						- Docker Image Used:<br>
 						Mongo: MongoDB document databases<br>
 						Mongo Express: Web-based MongoDB admin interface<br>
 					</li>
@@ -259,19 +263,19 @@
 						<strong>Dream Catcher App</strong>
 						<br>
 						This is a dream catcher app written in Kotlin. Users of this app can:<br>
-						-> scan a scrollable list of dreams: RecyclerView.<br>
-						-> go to each dream detail: Safe Args Library, Fragment Navigation.<br>
-						-> update dream - the most updated dream is the top item: unidirectional data flow.<br>
-						-> add a new dream and add some reflections to the dream: Room database library.<br>
-						-> select if the dream is either deferred or fulfilled; if the dream is fulfilled, no reflection
+						- scan a scrollable list of dreams: RecyclerView.<br>
+						- go to each dream detail: Safe Args Library, Fragment Navigation.<br>
+						- update dream - the most updated dream is the top item: unidirectional data flow.<br>
+						- add a new dream and add some reflections to the dream: Room database library.<br>
+						- select if the dream is either deferred or fulfilled; if the dream is fulfilled, no reflection
 						could be added: Dialogue Fragment.<br>
-						-> swipe left to delete the dream from the dream list fragment; swipe left to delete reflections
+						- swipe left to delete the dream from the dream list fragment; swipe left to delete reflections
 						from the dream detail fragment: ItemTouchHelper.<br>
-						-> retain all dream states through a configuration change: ViewModel.<br>
-						-> take a photo attached to each dream: Implicit Intent.<br>
-						-> share the dream status with other apps: Implicit Intent and chooser dialogue.<br>
-						-> delete dream from menu item: Room database library.<br>
-						-> select different menu items from the menu bar: Menu component.<br>
+						- retain all dream states through a configuration change: ViewModel.<br>
+						- take a photo attached to each dream: Implicit Intent.<br>
+						- share the dream status with other apps: Implicit Intent and chooser dialogue.<br>
+						- delete dream from menu item: Room database library.<br>
+						- select different menu items from the menu bar: Menu component.<br>
 					</li>
 					<iframe width="100%" height="315" src="https://www.youtube.com/embed/I7xnULV0TkU"
 						title="YouTube video player" frameborder="0" allow="accelerometer; 
